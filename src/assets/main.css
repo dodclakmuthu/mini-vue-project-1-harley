@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --background-ash: #eeeceb;
+}
+
+.pro-title {
+  font-weight: 900;
+  font-size: 36px;
+}
+.pro-title-dash{
+  border-top: 3px solid #fa6600;
+  display: inline-block;
+  height: 10px;
+  width: 24px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background: var(--background-ash);
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pro-box {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  border: 1px solid black;
+  background: white;
+  border: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.pro-box .pro-img-container{
+  position: absolute;
+  top: 0;
+  width: 230px;
+  margin: 0 10px;
+  height: 200px;
+}
+
+.pro-box .pro-img-container img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pro-details-container{
+  position: absolute;
+  top: 210px;
+  width: 94%;
+  margin: 0 3%;
+  max-height: 185px;
+}
